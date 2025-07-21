@@ -22,23 +22,10 @@ Fournir des recommandations agronomiques réalistes et contextualisées, à part
 - Enracinement
 - Pluie prévue sous 24h (en mm)
 
-## 📁 Dataset d'entraînement
+## 📁 Dataset 
 
-- **Taille** : 150 lignes
-- **Origine** : Génération IA avec validation métier
-- **Contrôle qualité** :
-  - Vérification automatique via GPT-4 et Grok
-  - Suppression des incohérences (ex. : polyédrique + MO bonne + stabilité bonne)
-  - Remplacement manuel des cas erronés
-- **Format** : JSONL, structuré `role/user/content` ↔ `role/assistant/content`
+🕰️ Historique : Ce dataset représente une version initiale du projet Lyra Irrigation. Il a été utilisé pour valider la faisabilité d’un modèle IA orienté agronomie et irrigation de précision. Bien que les données soient partiellement répétitives, elles ont servi de base aux premières expérimentations de fine-tuning. Une version enrichie est en préparation.
 
-## 📁 Dataset de validation
-
-- **Taille** : 50 lignes
-- **Méthodologie** : 25 cas uniques × 2 variantes réalistes
-- **Vérification** :
-  - Détection des doublons et incohérences via Grok
-  - Résultat : validé sans erreur manifeste
 
 ## 🧪 Tests de performance
 
