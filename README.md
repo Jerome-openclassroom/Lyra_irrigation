@@ -24,8 +24,7 @@ Fournir des recommandations agronomiques réalistes et contextualisées, à part
 
 ## 📁 Dataset 
 
-🕰️ Historique : Ce dataset représente une version initiale du projet Lyra Irrigation. Il a été utilisé pour valider la faisabilité d’un modèle IA orienté agronomie et irrigation de précision. Bien que les données soient partiellement répétitives, elles ont servi de base aux premières expérimentations de fine-tuning. Une version enrichie est en préparation.
-
+🕰️ Historique : Ce dataset représente une version initiale du projet Lyra Irrigation. Il a été utilisé pour valider la faisabilité d’un modèle IA orienté agronomie et irrigation de précision. Bien que les données soient partiellement répétitives, elles ont servi de base aux premières expérimentations de fine-tuning. 
 
 ## 🧪 Tests de performance
 
